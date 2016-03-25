@@ -105,7 +105,9 @@ namespace WindowsFormsApplication1
             webBrowser1.Navigate("http://gmail.com");
         }
 
-        private void toolStripButton10_Click(object sender, EventArgs e)
+
+
+        private void toolStripButton10_Click_1(object sender, EventArgs e)
         {
             webBrowser1.Navigate("http://youtube.com/my_videos");
         }
