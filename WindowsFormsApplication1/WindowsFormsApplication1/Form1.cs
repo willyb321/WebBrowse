@@ -16,11 +16,6 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-            }
-
         private void button1_Click(object sender, EventArgs e)
         {
             webBrowser1.Navigate("http://www.gmail.com");
@@ -59,6 +54,11 @@ namespace WindowsFormsApplication1
         private void button7_Click(object sender, EventArgs e)
         {
             webBrowser1.GoBack();
+        }
+
+        private void webBrowser1_DocumentCompleted_1(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
         }
     }
 }
