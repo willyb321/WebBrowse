@@ -30,5 +30,35 @@ namespace WindowsFormsApplication1
         {
             webBrowser1.Navigate("http://www.youtube.com/my_videos");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.reddit.com");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.reddit.com/r/elitedangerous");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.reddit.com/r/elitecg");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.snapzu.com");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+        }
     }
 }
