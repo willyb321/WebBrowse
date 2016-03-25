@@ -141,5 +141,10 @@ namespace WindowsFormsApplication1
         {
             webBrowser1.GoForward();
         }
+
+        private void toolStripButton17_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Refresh();
+        }
     }
 }
