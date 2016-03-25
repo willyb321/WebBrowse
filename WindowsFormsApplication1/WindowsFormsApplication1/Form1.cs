@@ -25,5 +25,10 @@ namespace WindowsFormsApplication1
         {
             webBrowser1.Navigate("http://www.gmail.com");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.youtube.com/my_videos");
+        }
     }
 }
