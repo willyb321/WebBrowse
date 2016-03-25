@@ -60,5 +60,84 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://gmail.com");
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://youtube.com/my_videos");
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://reddit.com");
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://reddit.com/r/elitedangerous");
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://reddit.com/r/elitecg");
+        }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://snapzu.com");
+        }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+        }
+
+        private void toolStripButton8_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+        }
+        private void toolStripButton9_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://gmail.com");
+        }
+
+        private void toolStripButton10_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://youtube.com/my_videos");
+        }
+
+        private void toolStripButton11_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://reddit.com");
+        }
+
+        private void toolStripButton12_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://reddit.com/r/elitedangerous");
+        }
+
+        private void toolStripButton13_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://reddit.com/r/elitecg");
+        }
+
+        private void toolStripButton14_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://snapzu.com");
+        }
+
+        private void toolStripButton15_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+        }
+
+        private void toolStripButton16_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+        }
     }
 }
