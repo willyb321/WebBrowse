@@ -146,5 +146,15 @@ namespace WindowsFormsApplication1
         {
             webBrowser1.Refresh();
         }
+
+        private void toolStripButton18_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://eddb.io");
+        }
+
+        private void toolStripButton19_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.edsm.net/logs");
+        }
     }
 }
