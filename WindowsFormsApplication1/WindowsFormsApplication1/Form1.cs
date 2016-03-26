@@ -156,5 +156,20 @@ namespace WindowsFormsApplication1
         {
             webBrowser1.Navigate("http://www.edsm.net/logs");
         }
+
+        private void toolStripButton20_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://192.168.1.1");
+        }
+
+        private void toolStripButton21_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://giveawayoftheday.com");
+        }
+
+        private void toolStripButton22_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://robertsspaceindustries.com");
+        }
     }
 }
