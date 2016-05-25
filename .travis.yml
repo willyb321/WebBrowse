@@ -1,2 +1,2 @@
 language: csharp
-solution: WindowsFormsApplication1.sln
+solution: ./WindowsFormsApplication1/WindowsFormsApplication1.sln
