@@ -1,2 +1,9 @@
 language: csharp
 solution: ./WindowsFormsApplication1/WindowsFormsApplication1.sln
+
+install:
+  - sudo apt-get install nunit-console
+  - nuget restore ./WindowsFormsApplication1/WindowsFormsApplication1.sln
+
+script:
+  - xbuild ./WindowsFormsApplication1/WindowsFormsApplication1.sln
